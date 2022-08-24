@@ -17,7 +17,6 @@ namespace details
                 Console.WriteLine("Press 1 to enter student details");
                 Console.WriteLine("Press 2 to print student details");
                 Console.WriteLine("Press 3 to check if the input is palindrome or not");
-                Console.WriteLine("Press 4 to check if the input is an armstrong number or not");
 
                 n = int.Parse(Console.ReadLine());
 
