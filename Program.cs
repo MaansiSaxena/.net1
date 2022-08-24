@@ -8,7 +8,7 @@ namespace Task_1
         {
             string cont = "Y";
 
-            string roll_no = "", name = "", stu_class = "", email = "", mobile = "";
+            string id = "", name = "", age = "", stream = "", mobile = "";
             int n;
 
             for (; cont.ToUpper() == "Y";)
@@ -24,23 +24,23 @@ namespace Task_1
                 switch (n)
                 {
                     case 1:
-                        Console.WriteLine("Enter the roll no. of the student: ");
-                        roll_no = Console.ReadLine();
+                        Console.WriteLine("Enter the id of the student: ");
+                        id = Console.ReadLine();
                         Console.WriteLine("Enter the name of the student: ");
                         name = Console.ReadLine();
-                        Console.WriteLine("Enter the class: ");
-                        stu_class = Console.ReadLine();
-                        Console.WriteLine("Enter the email: ");
-                        email = Console.ReadLine();
+                        Console.WriteLine("Enter the ages: ");
+                        age = Console.ReadLine();
+                        Console.WriteLine("Enter the stream: ");
+                        stream = Console.ReadLine();
                         Console.WriteLine("Enter the mobile no.: ");
                         mobile = Console.ReadLine();
                         break;
 
                     case 2:
-                        Console.WriteLine("Roll number is " + roll_no);
+                        Console.WriteLine("id is " + id);
                         Console.WriteLine("Name is " + name);
-                        Console.WriteLine("Class is " + stu_class);
-                        Console.WriteLine("E-mail is " + email);
+                        Console.WriteLine("age is " + age);
+                        Console.WriteLine("stream is " + stream);
                         Console.WriteLine("Mobile number is " + mobile);
                         break;
 
